@@ -14,6 +14,11 @@ h1 {
     font-size: 80px;
 } */
 
+/* Descendent Selector */
+p b {
+    color: greenyellow;
+}
+
 /* NAVBAR CLASS */
 #navigasi  {
     background-color: #15292B;
@@ -35,6 +40,7 @@ h1 {
 }
 
 .menu {
+    /* margin-right: 5px; */
     margin-left: 800px;
     padding-top: 27px;
 }
