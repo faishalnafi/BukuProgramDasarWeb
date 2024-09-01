@@ -19,6 +19,11 @@ p b {
     color: greenyellow;
 }
 
+/* Adjacent Sibling Selector */
+img+h3 {
+    color: deeppink;
+}
+
 /* NAVBAR CLASS */
 #navigasi  {
     background-color: #15292B;
