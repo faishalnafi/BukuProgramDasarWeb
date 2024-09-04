@@ -111,3 +111,23 @@ div > h1 {
     margin: 10px auto 10px;
 }
 /* AKHIR FOOTER CLASS */
+
+/* Child Selector */
+/* h3 > b {
+    font-size: 80px;
+} */
+
+/* Descendent Selector */
+/* p b {
+    color: greenyellow;
+} */
+
+/* Adjacent Sibling Selector */
+/* img+h3 {
+    color: deeppink;
+} */
+
+/* General Sibling Selector */
+/* h3~p {
+    color: deeppink;
+} */
