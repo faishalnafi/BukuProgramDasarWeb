@@ -1,82 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Website Portofolio Sederhana</title>
+  <meta content="" name="description">
+  <meta content="Interface" name="keywords">
+
+  <!-- Favicons -->
+  <link href="https://naficdn.my.id/icon/heart.png" rel="icon">
+  <link href="https://naficdn.my.id/icon/heart.png" rel="apple-touch-icon">
+  <link href="https://support.nafii.my.id/icon/heart.png" rel="icon">
+  <link href="https://support.nafii.my.id/icon/heart.png" rel="apple-touch-icon">
+  
+  <!-- CSS STYLE -->
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <header>
-        <nav class="menu" id="navigasi">
+<body style="background-color: #121212;">
+    <!-- navigasi -->
+    <div id="navigasi" class="navigasi">
+        <!--logo-->
+        <div class="logo">
+            <h2><a href="/">Portofolio</a></h2>
+        </div>
+        <!--akhir logo-->
+
+        <!--menu-->
+        <div id="menu" class="menu">
             <ul>
                 <li><a href="/index.html">Beranda</a></li>
                 <li><a href="/about.html">Portofolio</a></li>
                 <li><a href="#saya">Tentang saya</a></li>
                 <li><a href="#kontak">Kontak</a></li>
             </ul>
-        </nav>
-    </header>
-
-    <section id="hero" class="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Discover my work and projects</p>
-    </section>
-
-    <section id="portfolio" class="portofolio">
-        <h2>Portfolio</h2>
-        <div class="portfolio-items">
-            <div class="portfolio-item">
-                <img src="https://via.placeholder.com/150" alt="Project 1">
-                <h3>Project 1</h3>
-            </div>
-            <div class="portfolio-item">
-                <img src="https://via.placeholder.com/150" alt="Project 2">
-                <h3>Project 2</h3>
-            </div>
-            <!-- Tambahkan lebih banyak proyek sesuai kebutuhan -->
         </div>
-    </section>
+        <!--akhir menu-->
+    </div>
+    <!--akhihr navigasi-->
 
-    <section id="services" class="services">
-        <h2>Services</h2>
-        <ul>
-            <li>Service 1</li>
-            <li>Service 2</li>
-            <li>Service 3</li>
-            <!-- Tambahkan lebih banyak layanan sesuai kebutuhan -->
-        </ul>
-    </section>
+    <!-- hero -->
+    <div class="hero">
+        <img src="img/user.png" alt="Gambar Hero By FaishalNafi">
+        <h1>Hi, Nama Saya Faishal Nafi'</h1>
+        <p></p>
+    </div>
+    <!-- akhir hero -->
 
-    <section id="skills" class="skilss">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <!-- Tambahkan lebih banyak keterampilan sesuai kebutuhan -->
-        </ul>
-    </section>
+    <!-- tentang saya -->
+    <div id="saya" class="saya">
+        <h1>Tentang Saya</h1>
+        <div class="kiri">
+            <img src="./img/finger.png" alt="fingerprint">
+            <b><h3>Riwayat Pendidikan</h3></b>
+            <p>Lorem ipsum dolor <b>sit</b> amet consectetur <i><b>adipisicing elit.</b></i> Libero perspiciatis beatae earum omnis possimus fugiat cumque reiciendis autem? Sint nisi molestiae doloremque ex totam itaque dignissimos? Voluptas corporis fugit provident.</p>
+        </div>
+        <div class="tengah">
+            <img src="./img/finger.png" alt="fingerprint">
+            <h3>Pengalaman Kerja</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero perspiciatis beatae earum omnis possimus fugiat cumque reiciendis autem? Sint nisi molestiae doloremque ex totam itaque dignissimos? Voluptas corporis fugit provident.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero perspiciatis beatae earum omnis possimus fugiat cumque reiciendis autem? Sint nisi molestiae doloremque ex totam itaque dignissimos? Voluptas corporis fugit provident.</p>
+        </div>
+        <div class="kanan">
+            <img src="./img/finger.png" alt="fingerprint">
+            <h3>Riwayat Hidup</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero perspiciatis beatae earum omnis possimus fugiat cumque reiciendis autem? Sint nisi molestiae doloremque ex totam itaque dignissimos? Voluptas corporis fugit provident.</p>
+        </div>
+    </div>
+    <!--akhir tentang saya  -->
 
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>Portofolio FaishalNafi &copy; 2024. All rights reserved.</p>
-    </footer>
+    <!-- footer -->
+    <div id="footer" class="footer">
+        <p>CopyRight FaishalNafi' 2024</p>
+    </div>
+    <!--akhir footer-->
 
     <script src="/js/script.js"></script>
 </body>
