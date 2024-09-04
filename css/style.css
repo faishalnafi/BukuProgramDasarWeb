@@ -20,7 +20,12 @@ p b {
 }
 
 /* Adjacent Sibling Selector */
-img+h3 {
+/* img+h3 {
+    color: deeppink;
+} */
+
+/* General Sibling Selector */
+h3~p {
     color: deeppink;
 }
 
