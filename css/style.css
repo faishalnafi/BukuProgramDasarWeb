@@ -15,9 +15,9 @@ h1 {
 } */
 
 /* Descendent Selector */
-p b {
+/* p b {
     color: greenyellow;
-}
+} */
 
 /* Adjacent Sibling Selector */
 /* img+h3 {
