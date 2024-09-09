@@ -179,34 +179,34 @@
 } */
 
 /* nama warna */
-#saya h1 {
+/* #saya h1 {
     color: deeppink;
-}
+} */
 /* heksadesimal */
-#pd h1 {
+/* #pd h1 {
     color: #ff1493;
-}
+} */
 /* rgb warna */
-#saya .kanan h3 {
+/* #saya .kanan h3 {
     color: rgb(255, 20, 147);
-}
+} */
 /* background color/warna dasar */
-#saya .tengah {
+/* #saya .tengah {
     background-color: #ff1493;
-}
+} */
 /* rgb alpha */
-#saya .kiri {
+/* #saya .kiri {
     background-color: rgba(255, 20, 147, 0.5);
-}
+} */
 /* hsl */
-#pdk .kanan {
+/* #pdk .kanan {
     background-color: hsl(328, 100%, 54%);
-}
+} */
 /* hsl alpha */
-#pdk .kiri {
+/* #pdk .kiri {
     background-color: hsla(328, 100%, 54%, 0.5);
-}
+} */
 /* object color/warna objek */
-#pdk .tengah p {
+/* #pdk .tengah p {
     color: deeppink;
-}
+} */
