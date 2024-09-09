@@ -177,3 +177,16 @@
 /* div > h1 {
     color: slategrey;
 } */
+
+/* nama warna */
+#saya h1 {
+    color: deeppink;
+}
+/* heksadesimal */
+#pd h1 {
+    color: #ff1493;
+}
+/* rgb warna */
+#saya .kanan h3 {
+    color: rgb(255, 20, 147);
+}
