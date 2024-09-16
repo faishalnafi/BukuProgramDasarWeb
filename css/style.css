@@ -206,6 +206,27 @@
     color: deeppink;
 } */
 
-.saya b h3 {
+#saya b h3 {
     font-size: xx-large;
+}
+#saya .kiri p {
+    font-size: x-small;
+}
+#saya .tengah h3 {
+    font-size: 25px;
+}
+#saya .tengah p {
+    font-size: 10pt;
+}
+#pdk b h3 {
+    font-size: 110%;
+}
+#pdk .kiri p {
+    font-size: 1.5em;
+}
+#pdk .tengah h3 {
+    font-size: 110%;
+}
+#pdk .tengah p {
+    font-size: 1.5rem;
 }
