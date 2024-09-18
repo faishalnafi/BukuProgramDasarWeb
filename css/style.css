@@ -230,3 +230,8 @@
 /* #pdk .tengah p {
     font-size: 0.8rem;
 } */
+
+/* text-shadow: x-offset y-offset blur-radius color; */
+h1 {
+    text-shadow: 2px 2px 4px #888;
+}
