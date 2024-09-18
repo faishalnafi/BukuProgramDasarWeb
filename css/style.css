@@ -235,3 +235,8 @@
 /* h1 {
     text-shadow: 2px 2px 4px #888;
 } */
+
+a:link { /* Gaya untuk link normal */ }
+a:visited { /* Gaya untuk link yang sudah dikunjungi */ }
+a:hover { /* Gaya saat kursor di atas link */ }
+a:active { /* Gaya saat link diklik */ }
