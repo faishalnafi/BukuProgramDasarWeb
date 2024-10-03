@@ -4,6 +4,10 @@
     width: 300px;
 }
 
+.kotak1 p {
+    background-color: blue;
+}
+
 .kotak2 {
     background-color: aquamarine;   
     height: 200px;
