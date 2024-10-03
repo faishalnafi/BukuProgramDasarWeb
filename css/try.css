@@ -5,21 +5,22 @@
 }
 
 .kotak1 p {
-    background-color: blue;
+    background-color: aquamarine;
 }
 
 .kotak2 {
-    background-color: aquamarine;   
+    background-color: rgb(232, 76, 20);   
     height: 200px;
     width: 400px; 
 }
 
 .kotak2 h2 {
-    background-color: rgb(14, 249, 170);
+    background-color: orange;
     width: 25%;
 }
 
 .kotak2 p {
     width: 50%;
-    color: coral;
+    color: white;
+    background-color: salmon;
 }
