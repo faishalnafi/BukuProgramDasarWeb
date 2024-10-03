@@ -13,3 +13,13 @@
     height: 200px;
     width: 400px; 
 }
+
+.kotak2 h2 {
+    background-color: rgb(14, 249, 170);
+    width: 25%;
+}
+
+.kotak2 p {
+    width: 50%;
+    color: coral;
+}
