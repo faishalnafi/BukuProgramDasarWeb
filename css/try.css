@@ -24,3 +24,9 @@
     color: white;
     background-color: salmon;
 }
+
+.kotak3 {
+    background-color: yellowgreen;
+    min-width: 450px;
+    max-width: 800px;
+}
