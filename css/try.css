@@ -51,6 +51,8 @@
     overflow: scroll;
 }
 
+
+
 /* Border Styles */
 p.dotted {border-style: dotted;}
 p.dashed {border-style: dashed;}
@@ -64,34 +66,73 @@ p.none {border-style: none;}
 p.hidden {border-style: hidden;}
 p.mix {border-style: dotted dashed solid double;}
 
+
+
 /* Padding Styles */
-h1 {
+
+.dekor {
     /* background-color: aquamarine; */
-    text-align: center;
+    /* text-align: center; */
     height: fit-content;
     width: fit-content;
     padding: 20px;
     border: 5px solid;
 }
+
 /* .padding {
     /* menentukan semua ukuran dari kanan, kiri, atas, bawah dengan ukuran yang sama *
     padding: 25px;
 }
+
 .padding1 {
     /* menentukan ukuran atas-bawah, kiri-kanan *
     padding: 25px 30px;
 }
+
 .padding2 {
     /* menentukan ukuran atas, kiri-kanan, bawah *
     padding: 25px 15px 30px;
 }
+
 .padding3 {
     /* menentukan ukuran atas, kanan, bawah, kiri *
     padding: 15px, 20px, 25px, 30px;
 }
+
 padding4 {
     padding-top: 10%;
     padding-right: 15%;
     padding-bottom: 20%;
     padding-left: 25%;
 } */
+
+
+
+/* Margin Styles */
+
+.margin0 {
+    /* menentukan semua ukuran dari kanan, kiri, atas, bawah dengan ukuran yang sama */
+    margin: 5px;
+}
+
+.margin1 {
+    /* menentukan ukuran atas-bawah, kiri-kanan */
+    margin: 5px 15px;
+}
+
+.margin2 {
+    /* menentukan ukuran atas, kiri-kanan, bawah */
+    margin: 5px 30px 15px;
+}
+
+.margin3 {
+    /* menentukan ukuran atas, kanan, bawah, kiri */
+    margin: 5px 10px 15px 40px;
+}
+
+.margin4 {
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-bottom: 20%;
+    margin-left: 25%;
+}
