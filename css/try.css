@@ -71,20 +71,20 @@ h1 {
     height: 100px;
     width: 200px;
 }
-.padding {
-    /* menentukan semua ukuran dari kanan, kiri, atas, bawah dengan ukuran yang sama */
+/* .padding {
+    /* menentukan semua ukuran dari kanan, kiri, atas, bawah dengan ukuran yang sama *
     padding: 25px;
 }
 .padding1 {
-    /* menentukan ukuran atas-bawah, kiri-kanan */
+    /* menentukan ukuran atas-bawah, kiri-kanan *
     padding: 25px 30px;
 }
 .padding2 {
-    /* menentukan ukuran atas, kiri-kanan, bawah */
+    /* menentukan ukuran atas, kiri-kanan, bawah *
     padding: 25px 15px 30px;
 }
 .padding3 {
-    /* menentukan ukuran atas, kanan, bawah, kiri */
+    /* menentukan ukuran atas, kanan, bawah, kiri *
     padding: 15px, 20px, 25px, 30px;
 }
 padding4 {
@@ -92,4 +92,4 @@ padding4 {
     padding-right: 15%;
     padding-bottom: 20%;
     padding-left: 25%;
-}
+} */
