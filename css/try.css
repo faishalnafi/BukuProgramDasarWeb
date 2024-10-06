@@ -40,3 +40,56 @@
     width: 200px;
     overflow: hidden;
 }
+
+.of2 h2 {
+    color: aqua;
+}
+
+.of2 {
+    height: 100px;
+    width: 200px;
+    overflow: scroll;
+}
+
+/* Border Styles */
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+/* Padding Styles */
+h1 {
+    background-color: aquamarine;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+}
+.padding {
+    /* menentukan semua ukuran dari kanan, kiri, atas, bawah dengan ukuran yang sama */
+    padding: 25px;
+}
+.padding1 {
+    /* menentukan ukuran atas-bawah, kiri-kanan */
+    padding: 25px 30px;
+}
+.padding2 {
+    /* menentukan ukuran atas, kiri-kanan, bawah */
+    padding: 25px 15px 30px;
+}
+.padding3 {
+    /* menentukan ukuran atas, kanan, bawah, kiri */
+    padding: 15px, 20px, 25px, 30px;
+}
+padding4 {
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-bottom: 20%;
+    padding-left: 25%;
+}
