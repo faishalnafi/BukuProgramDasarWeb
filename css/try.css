@@ -136,3 +136,13 @@ padding4 {
     margin-bottom: 20%;
     margin-left: 25%;
 }
+
+/* inline */
+span {
+    background-color: rgba(200, 255, 0, 0.637);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+}
