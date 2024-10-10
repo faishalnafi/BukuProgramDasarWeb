@@ -146,3 +146,15 @@ span {
     padding: 10px;
     border: 1px solid;
 }
+
+span.inline {
+    display: inline;
+}
+
+span.block {
+    display: block;
+}
+
+span.inline-block {
+    display: inline-block;
+}
