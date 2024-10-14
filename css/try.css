@@ -158,3 +158,26 @@ span.block {
 span.inline-block {
     display: inline-block;
 }
+
+/* flex */
+.flex-kontainer {
+    background-color: aqua;
+    display: flex;
+    height: 200px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.flex-items {
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    display: flex;
+}
+
+/* selector {
+    Property-name: property-value;
+} */
