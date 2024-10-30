@@ -1,84 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <nav class="menu" id="navigasi">
-            <ul>
-                <li><a href="/index.html">Beranda</a></li>
-                <li><a href="/about.html">Portofolio</a></li>
-                <li><a href="#saya">Tentang saya</a></li>
-                <li><a href="#kontak">Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="hero" class="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Discover my work and projects</p>
-    </section>
-
-    <section id="portfolio" class="portofolio">
-        <h2>Portfolio</h2>
-        <div class="portfolio-items">
-            <div class="portfolio-item">
-                <img src="https://via.placeholder.com/150" alt="Project 1">
-                <h3>Project 1</h3>
-            </div>
-            <div class="portfolio-item">
-                <img src="https://via.placeholder.com/150" alt="Project 2">
-                <h3>Project 2</h3>
-            </div>
-            <!-- Tambahkan lebih banyak proyek sesuai kebutuhan -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
         </div>
-    </section>
-
-    <section id="services" class="services">
-        <h2>Services</h2>
-        <ul>
-            <li>Service 1</li>
-            <li>Service 2</li>
-            <li>Service 3</li>
-            <!-- Tambahkan lebih banyak layanan sesuai kebutuhan -->
-        </ul>
-    </section>
-
-    <section id="skills" class="skilss">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <!-- Tambahkan lebih banyak keterampilan sesuai kebutuhan -->
-        </ul>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>Portofolio FaishalNafi &copy; 2024. All rights reserved.</p>
-    </footer>
-
-    <!-- scripting js -->
-    <script src="/js/script.js"></script>
-</body>
+      </div>
+    </nav>
+    <h1>Hello, world!</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
 </html>
