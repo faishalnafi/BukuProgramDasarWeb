@@ -37,3 +37,13 @@ newParagraph.textContent = "Ini adalah paragraf baru yang ditambahkan secara din
 // Menambahkan paragraf baru ke dalam div dengan id "saya"
 const divSaya = document.getElementById("saya");
 divSaya.appendChild(newParagraph);
+
+// Mengambil elemen yang ingin dihapus (misal, paragraf pertama di dalam div "saya")
+const paragrafPertama = document.querySelector("#saya p:first-child");
+// Menghapus elemen tersebut
+paragrafPertama.remove();
+
+// Mengambil elemen dengan kelas "hero" dan mengubah kelasnya
+const hero = document.querySelector(".hero");
+hero.classList.add("baru"); // Menambahkan kelas baru
+hero.classList.remove("hero"); // Menghapus kelas lama
