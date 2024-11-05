@@ -31,3 +31,45 @@ let form = document.getElementById("myForm");
       event.preventDefault(); // Mencegah form di-submit
     }
 });
+
+// respon event handling
+const menu = document.getElementById('menu');
+const hamburger = document.querySelector('.hamburger');
+hamburger.addEventListener('click', () => {
+    menu.classList.toggle('show');
+});
+
+const modal = document.getElementById('myModal');
+const btn = document.getElementById("myBtn");
+const span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+const form = document.getElementById('contactForm');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  // Validate form data here
+  // Send data to server using fetch or XMLHttpRequest
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
+const images = document.querySelectorAll('.gallery img');
+let currentIndex = 0;
+// Add event listeners for navigation buttons
+function showImage(n) {
+  images[currentIndex].classList.remove('active');
+  currentIndex = (currentIndex + n + images.length) % images.length;
+  images[currentIndex].classList.add('active');
+}
