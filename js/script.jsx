@@ -23,3 +23,17 @@ paragraph.textContent = "Teks ini telah diubah dengan JavaScript!";
 
 // Mengubah warna latar belakang elemen
 paragraph.style.backgroundColor = "lightblue";
+
+// Mengambil elemen dengan id "saya" dan mengubah teks h1
+const judulSaya = document.getElementById("saya");
+judulSaya.querySelector("h1").textContent = "Tentang Saya (Diubah)";
+
+// DOM ITEMS
+
+// Membuat elemen baru (paragraf)
+const newParagraph = document.createElement("p");
+newParagraph.textContent = "Ini adalah paragraf baru yang ditambahkan secara dinamis.";
+
+// Menambahkan paragraf baru ke dalam div dengan id "saya"
+const divSaya = document.getElementById("saya");
+divSaya.appendChild(newParagraph);
