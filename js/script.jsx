@@ -13,3 +13,13 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         alert('Please fill in all fields.');
     }
 });
+
+// DOM JAVASCRIPT
+// Mengambil elemen dengan id "demo"
+const paragraph = document.getElementById("demo");
+
+// Mengubah isi elemen
+paragraph.textContent = "Teks ini telah diubah dengan JavaScript!";
+
+// Mengubah warna latar belakang elemen
+paragraph.style.backgroundColor = "lightblue";
