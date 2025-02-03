@@ -99,7 +99,7 @@
     /* margin-top: 30px; */
 }
 
-/* .kiri, .tengah, .kanan {
+.kiri, .tengah, .kanan {
     width: 300px;
     height: 320px;
     background-color: gray;
@@ -109,7 +109,7 @@
     margin: 30px 20px 20px 55px;
     border-radius: 5%;
     float: left;
-} */
+}
 
 .kiri:hover, .tengah:hover, .kanan:hover {
     background-color: #91a0f3;
@@ -178,33 +178,33 @@ h3 > b {
     color: deeppink;
 } */
 /* heksadesimal */
-/* #pd h1 {
+#pd h1 {
     color: #ff1493;
-} */
+}
 /* rgb warna */
-/* #saya .kanan h3 {
+#saya .kanan h3 {
     color: rgb(255, 20, 147);
-} */
+}
 /* background color/warna dasar */
-/* #saya .tengah {
+#saya .tengah {
     background-color: #ff1493;
-} */
+}
 /* rgb alpha */
-/* #saya .kiri {
+#saya .kiri {
     background-color: rgba(255, 20, 147, 0.5);
-} */
+}
 /* hsl */
-/* #pdk .kanan {
+#pdk .kanan {
     background-color: hsl(328, 100%, 54%);
-} */
+}
 /* hsl alpha */
-/* #pdk .kiri {
+#pdk .kiri {
     background-color: hsla(328, 100%, 54%, 0.5);
-} */
+}
 /* object color/warna objek */
-/* #pdk .tengah p {
+#pdk .tengah p {
     color: deeppink;
-} */
+}
 
 /* #saya b h3 {
     font-size: xx-large;
