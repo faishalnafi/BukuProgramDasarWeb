@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: comfortaa;
-    color: white;
+    color: black;
 }
 
 /* NAVBAR CLASS */
@@ -99,7 +99,7 @@
     /* margin-top: 30px; */
 }
 
-.kiri, .tengah, .kanan {
+/* .kiri, .tengah, .kanan {
     width: 300px;
     height: 320px;
     background-color: gray;
@@ -109,7 +109,7 @@
     margin: 30px 20px 20px 55px;
     border-radius: 5%;
     float: left;
-}
+} */
 
 .kiri:hover, .tengah:hover, .kanan:hover {
     background-color: #91a0f3;
@@ -151,9 +151,9 @@
 
 
 /* Child Selector */
-/* h3 > b {
+h3 > b {
     font-size: 80px;
-} */
+}
 /* Descendent Selector */
 /* p b {
     color: greenyellow;
