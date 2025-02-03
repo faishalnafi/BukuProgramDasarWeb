@@ -151,9 +151,9 @@
 
 
 /* Child Selector */
-h3 > b {
+/* h3 > b {
     font-size: 80px;
-}
+} */
 /* Descendent Selector */
 /* p b {
     color: greenyellow;
@@ -209,7 +209,7 @@ h3 > b {
 /* #saya b h3 {
     font-size: xx-large;
 } */
-#saya .kiri p {
+/* #saya .kiri p {
     font-size: x-small;
 }
 #saya .tengah h3 {
@@ -229,7 +229,7 @@ h3 > b {
 }
 #pdk .tengah p {
     font-size: 0.8rem;
-}
+} */
 
 /* text-shadow: x-offset y-offset blur-radius color; */
 /* h1 {
