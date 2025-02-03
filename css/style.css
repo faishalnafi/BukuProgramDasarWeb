@@ -178,58 +178,58 @@ h3 > b {
     color: deeppink;
 } */
 /* heksadesimal */
-#pd h1 {
+/* #pd h1 {
     color: #ff1493;
-}
+} */
 /* rgb warna */
-#saya .kanan h3 {
+/* #saya .kanan h3 {
     color: rgb(255, 20, 147);
-}
+} */
 /* background color/warna dasar */
-#saya .tengah {
+/* #saya .tengah {
     background-color: #ff1493;
-}
+} */
 /* rgb alpha */
-#saya .kiri {
+/* #saya .kiri {
     background-color: rgba(255, 20, 147, 0.5);
-}
+} */
 /* hsl */
-#pdk .kanan {
+/* #pdk .kanan {
     background-color: hsl(328, 100%, 54%);
-}
+} */
 /* hsl alpha */
-#pdk .kiri {
+/* #pdk .kiri {
     background-color: hsla(328, 100%, 54%, 0.5);
-}
+} */
 /* object color/warna objek */
-#pdk .tengah p {
+/* #pdk .tengah p {
     color: deeppink;
-}
+} */
 
 /* #saya b h3 {
     font-size: xx-large;
 } */
-/* #saya .kiri p {
+#saya .kiri p {
     font-size: x-small;
-} */
-/* #saya .tengah h3 {
+}
+#saya .tengah h3 {
     font-size: 25px;
-} */
-/* #saya .tengah p {
+}
+#saya .tengah p {
     font-size: 10pt;
-} */
-/* #pdk b h3 {
+}
+#pdk b h3 {
     font-size: 110%;
-} */
-/* #pdk .kiri p {
+}
+#pdk .kiri p {
     font-size: 0.8em;
-} */
-/* #pdk .tengah h3 {
+}
+#pdk .tengah h3 {
     font-size: 110%;
-} */
-/* #pdk .tengah p {
+}
+#pdk .tengah p {
     font-size: 0.8rem;
-} */
+}
 
 /* text-shadow: x-offset y-offset blur-radius color; */
 /* h1 {
